@@ -1,0 +1,59 @@
+/*tokens token*/
+
+h1,
+h3 {
+  text-align: center;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tokens {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.token {
+  width: 50px;
+  height: 50px;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.token img {
+  width: 25px;
+  height: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  background: #222;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .icon {
+  width: 50px;
+  height: 50px;
+}
+
+.resetButton {
+  padding: 2rem;
+  background: #222;
+  color: #fff;
+}
